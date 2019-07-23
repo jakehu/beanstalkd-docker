@@ -1,4 +1,4 @@
-FROM alpine:3.10.1
+FROM alpine:edge
 LABEL maintainer="jakehu <jakehu1991@gmail.com>"
 
 RUN apk add --no-cache beanstalkd=1.11
